@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "aimoptimizer",
+  "version": "${version}",
+  "name": "Aim Optimizer",
+  "description": "Y-axis stabilizer for smoother flicking and tracking.",
+  "authors": ["YATIM898"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.aimoptimizer.AimOptimizerMod"
+    ]
+  },
+  "mixins": [
+    "aimoptimizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
